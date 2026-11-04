@@ -1,0 +1,17 @@
+{
+  "name": "tutor-skill",
+  "owner": {
+    "name": "m-iller",
+    "url": "https://github.com/m-iller"
+  },
+  "metadata": {
+    "description": "Marketplace for the tutor skill."
+  },
+  "plugins": [
+    {
+      "name": "tutor",
+      "source": "./",
+      "description": "Personal tutor for any subject: source-grounded teaching with citations, math/programming/engineering playbooks, quizzes and mastery tracking."
+    }
+  ]
+}

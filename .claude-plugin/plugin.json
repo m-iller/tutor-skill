@@ -1,0 +1,13 @@
+{
+  "name": "tutor",
+  "version": "1.1.0",
+  "description": "Personal tutor for any subject: source-grounded teaching with citations, math/programming/engineering playbooks, quizzes, question bank and mastery tracking.",
+  "author": {
+    "name": "m-iller",
+    "url": "https://github.com/m-iller"
+  },
+  "homepage": "https://github.com/m-iller/tutor-skill",
+  "repository": "https://github.com/m-iller/tutor-skill",
+  "license": "MIT",
+  "keywords": ["tutor", "learning", "study", "quiz", "education", "skill"]
+}
