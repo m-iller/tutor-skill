@@ -16,7 +16,7 @@ Works in the Claude app (claude.ai, desktop, mobile) and in Claude Code.
 
 ## Install in ChatGPT or Codex
 
-- In ChatGPT workspaces with Skills enabled, go to **Plugins → Skills → Add → Upload from your computer** and choose [tutor.zip](chatgpt/tutor.zip). Try “Use tutor to quiz me on this lecture” with a lecture attached. [Skills in ChatGPT](https://help.openai.com/en/articles/20001066-skills-in-chatgpt)
+- In ChatGPT, open the **New plugin** upload dialog and select the [tutor plugin ZIP](https://github.com/m-iller/tutor-skill/raw/refs/heads/main/chatgpt/tutor.zip). Then choose **Add plugin**. Try “Use tutor to quiz me on this lecture” with a lecture attached. [Skills in ChatGPT](https://help.openai.com/en/articles/20001066-skills-in-chatgpt)
 - For an editable custom GPT, paste [the tutor instructions](chatgpt/instructions.txt) into Instructions. If it already has instructions, merge the tutoring section with them. Add the seven Markdown playbooks from [references](skills/tutor/references/) to Knowledge, enable Web search for external sources if available, then test in Preview and save. [Creating and editing GPTs](https://help.openai.com/en/articles/8554397-creating-and-editing-gpts)
 - For a course in a ChatGPT Project, paste the same text into Project instructions and add your lecture files and playbooks to the project. For a single ordinary chat, paste the text as the first message and attach relevant course files. [Projects in ChatGPT](https://help.openai.com/en/articles/10169521-projects-in-chatgpt)
 - For Codex, copy the entire `skills/tutor` directory to `.agents/skills/tutor` in your study repository.
